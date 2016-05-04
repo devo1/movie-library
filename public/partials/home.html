@@ -1,0 +1,16 @@
+<h1>Home Page</h1>
+
+<li ng-repeat='movie in movie'>
+
+        <a href='/#/movie/{{ movie_id }}'>
+            {{ movie.title }}
+        </a>
+
+        <a href='/#/movie/delete/{{ movie_id }}'>
+            <i class='glyphicon glyhicon-remove'></i>
+        </a>
+</li>
+
+<p>
+    <a href='/#/add-movie'>Add a Movie </a>
+</p>
